@@ -8,3 +8,8 @@
 .my-details {
   background-color: rgba(255, 255, 255, 0.747);
 }
+
+.profile{
+  width: 900px;
+  height: 500px;
+}

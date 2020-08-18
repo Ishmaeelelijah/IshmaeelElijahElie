@@ -2,7 +2,8 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Card from "react-bootstrap/Card";
-
+// import Logo from ""
+import Logo from "../../assets/img/experience/surge_energy.jpg"
 import Tilt from "react-tilt";
 import "./experience.styles.css";
 
@@ -15,8 +16,8 @@ const Experience = () => {
           <Tilt options={{ max: 25 }}>
             <Card>
               <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
-                {/* <Card.Img variant="top" className="img-resize" src={L_ACCENTURE} alt="Accenture logo" /> */}
-                Surg Energy
+                <Card.Img variant="top" className="img-resize" src={Logo} alt="Surge logo" />
+                
               </Card.Header>
               <Card.Body className="d-flex justify-content-center flex-column">
                 <div>
@@ -30,7 +31,7 @@ const Experience = () => {
                     <br />
                     <strong>Description:</strong> Solving real-time problems occuring in production related to UI
                     <br />
-                    <strong>Technology:</strong> CSS WordPress
+                    <strong>Technology:</strong> CSS & WordPress
                     <br />
                     <strong>Duration:</strong> June 2020 - Present
                   </Card.Text>
