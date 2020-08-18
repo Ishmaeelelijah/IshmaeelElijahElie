@@ -280,7 +280,7 @@ export default function TimeLine() {
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
                           <li>Enter Name adn Age</li>
-                          <li>Select Number</li>
+                          <li>Select Lucky Numbers</li>
                           <li>Out Puts Your Number And Luck Number</li>
                         </ul>
                         <hr />
