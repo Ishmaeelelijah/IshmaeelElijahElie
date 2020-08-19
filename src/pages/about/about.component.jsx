@@ -27,7 +27,7 @@ const About = () => {
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
                     <a href="#contact">
-                      <Button className="m-2" variant="outline-primary">
+                      <Button className="m-2" variant="outline-danger">
                         Get In Touch
                       </Button>
                     </a>
@@ -42,7 +42,7 @@ const About = () => {
                   </div>
                   <div>
                     <a href="https://www.linkedin.com/in/ishmaeel-elijah-0562511a0/" target="_blank" rel="noopener noreferrer">
-                      <Button className="m-2" variant="outline-info">
+                      <Button className="m-2" variant="outline-primary">
                         LinkedIn
                       </Button>
                     </a>
