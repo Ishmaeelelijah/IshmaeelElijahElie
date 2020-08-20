@@ -9,9 +9,9 @@ const MyNavbar = () => {
     <div>
       <Navbar fixed="top" variant="dark" expand="md" className="animate-navbar nav-theme justify-content-between">
         <div>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="#home" className="navbar">
             {/* <img className="logo" src={Logo} alt="" /> */}
-            I.E
+            I.E.E
           </Navbar.Brand>
         </div>
         <div>
